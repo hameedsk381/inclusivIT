@@ -22,6 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <title>IT Certification and Web Services</title>
+        <meta name="description" content="Online certification courses for IT students and web services for businesses." />
+       
+      </head>
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
